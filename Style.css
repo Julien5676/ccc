@@ -1,0 +1,187 @@
+body {
+
+background-color: rgb(230, 255, 255);
+
+font-family: 'serif;', serif, monospace;
+
+}
+
+
+h1 { color: rgb(2, 27, 24);
+
+    font-family: fantasy, fantasy, sans-serif;
+
+    font-weight: 100;
+
+    letter-spacing: 5px;
+
+    font-size: 45px;
+
+}
+
+
+h2 { color: rgb(39, 43, 42);
+
+    font-family: serif, Noto Sans, sans-serif;
+
+    font-weight: 100;
+
+    letter-spacing: 4px;
+
+    font-size: 30px;
+
+}
+
+p { color: rgb(2, 27, 24);
+
+    font-family: Arial;, Arial, sans-serif;
+
+    font-weight: 100;
+
+    letter-spacing: 3px;
+
+    font-size: 15px;
+
+}
+
+
+a {
+
+    text-decoration: none;
+
+    color : rgb(2, 27, 24) ;
+
+}
+
+
+a:hover {
+
+    color: rgb(230, 255, 255);
+
+}
+
+
+/*custom design with class */
+
+
+.container {
+
+    width: 700px;
+
+    margin: 40px auto;
+
+}
+
+
+.card-white {
+
+    background-color: skyblue;
+
+    padding: 40px;
+
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.15);
+
+    border-radius: 15px;
+
+    margin: 20px 0px;
+
+    text-align: center;
+
+}
+
+
+.image-circle {
+
+    border-radius: 50%;
+
+}
+
+
+.btn-blue {
+
+    background-color: rgb(126, 31, 31);
+
+    color: beige;
+
+    padding: 15px 20px;
+
+    border-radius: 4px;
+
+}
+
+
+.btn-blue:hover {
+
+    background-color: rgb(230, 255, 255);
+
+    color: rgb(126, 31, 31);
+
+}
+
+
+.list-inline {
+
+    list-style: none;
+
+    padding-left: 0px;
+
+}
+
+
+.list-inline li {
+
+    display: inline;
+
+}
+
+.list-inline i {
+
+    font-size: 50px;
+
+    color: rgb(126, 31, 31);
+
+}
+
+.list-inline i:hover {
+
+    color: black;
+
+}
+
+#introduction p {
+
+    margin-bottom: 40px;
+
+}.banner {
+
+    background-image: linear-gradient(-220deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url(/);
+
+    color: mediumpurple;
+
+    padding: 150px 0px;
+
+    background-size: cover;
+
+    background-position: center;
+
+}
+
+
+.banner h1 {
+
+    font-size: 50px;
+
+}
+
+
+.banner h2 {
+
+    font-size: 30px;
+
+    font-weight: lighter;
+
+    opacity: 0,8;
+
+    margin-bottom: 40px;
+
+}
